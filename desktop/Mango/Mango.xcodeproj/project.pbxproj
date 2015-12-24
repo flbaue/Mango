@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172C21AF1C2C2C90000EBEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C21AE1C2C2C90000EBEFF /* AppDelegate.swift */; };
+		172C21B11C2C2C90000EBEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C21B01C2C2C90000EBEFF /* ViewController.swift */; };
+		172C21B41C2C2C90000EBEFF /* Mango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 172C21B21C2C2C90000EBEFF /* Mango.xcdatamodeld */; };
+		172C21B61C2C2C90000EBEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C21B51C2C2C90000EBEFF /* Assets.xcassets */; };
+		172C21B91C2C2C91000EBEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172C21B71C2C2C91000EBEFF /* Main.storyboard */; };
+		172C21C41C2C2C91000EBEFF /* MangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C21C31C2C2C91000EBEFF /* MangoTests.swift */; };
+		172C21CF1C2C2C91000EBEFF /* MangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C21CE1C2C2C91000EBEFF /* MangoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172C21C01C2C2C91000EBEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172C21A31C2C2C90000EBEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172C21AA1C2C2C90000EBEFF;
+			remoteInfo = Mango;
+		};
+		172C21CB1C2C2C91000EBEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172C21A31C2C2C90000EBEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172C21AA1C2C2C90000EBEFF;
+			remoteInfo = Mango;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172C00771C2C2D9400FD57FD /* Mango.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mango.entitlements; sourceTree = "<group>"; };
+		172C21AB1C2C2C90000EBEFF /* Mango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C21AE1C2C2C90000EBEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172C21B01C2C2C90000EBEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172C21B31C2C2C90000EBEFF /* Mango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mango.xcdatamodel; sourceTree = "<group>"; };
+		172C21B51C2C2C90000EBEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172C21B81C2C2C91000EBEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		172C21BA1C2C2C91000EBEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172C21BF1C2C2C91000EBEFF /* MangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C21C31C2C2C91000EBEFF /* MangoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoTests.swift; sourceTree = "<group>"; };
+		172C21C51C2C2C91000EBEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172C21CA1C2C2C91000EBEFF /* MangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C21CE1C2C2C91000EBEFF /* MangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoUITests.swift; sourceTree = "<group>"; };
+		172C21D01C2C2C91000EBEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172C21A81C2C2C90000EBEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C21BC1C2C2C91000EBEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C21C71C2C2C91000EBEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172C21A21C2C2C90000EBEFF = {
+			isa = PBXGroup;
+			children = (
+				172C21AD1C2C2C90000EBEFF /* Mango */,
+				172C21C21C2C2C91000EBEFF /* MangoTests */,
+				172C21CD1C2C2C91000EBEFF /* MangoUITests */,
+				172C21AC1C2C2C90000EBEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172C21AC1C2C2C90000EBEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172C21AB1C2C2C90000EBEFF /* Mango.app */,
+				172C21BF1C2C2C91000EBEFF /* MangoTests.xctest */,
+				172C21CA1C2C2C91000EBEFF /* MangoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172C21AD1C2C2C90000EBEFF /* Mango */ = {
+			isa = PBXGroup;
+			children = (
+				172C00771C2C2D9400FD57FD /* Mango.entitlements */,
+				172C21AE1C2C2C90000EBEFF /* AppDelegate.swift */,
+				172C21B01C2C2C90000EBEFF /* ViewController.swift */,
+				172C21B51C2C2C90000EBEFF /* Assets.xcassets */,
+				172C21B71C2C2C91000EBEFF /* Main.storyboard */,
+				172C21BA1C2C2C91000EBEFF /* Info.plist */,
+				172C21B21C2C2C90000EBEFF /* Mango.xcdatamodeld */,
+			);
+			path = Mango;
+			sourceTree = "<group>";
+		};
+		172C21C21C2C2C91000EBEFF /* MangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				172C21C31C2C2C91000EBEFF /* MangoTests.swift */,
+				172C21C51C2C2C91000EBEFF /* Info.plist */,
+			);
+			path = MangoTests;
+			sourceTree = "<group>";
+		};
+		172C21CD1C2C2C91000EBEFF /* MangoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				172C21CE1C2C2C91000EBEFF /* MangoUITests.swift */,
+				172C21D01C2C2C91000EBEFF /* Info.plist */,
+			);
+			path = MangoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172C21AA1C2C2C90000EBEFF /* Mango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C21D31C2C2C91000EBEFF /* Build configuration list for PBXNativeTarget "Mango" */;
+			buildPhases = (
+				172C21A71C2C2C90000EBEFF /* Sources */,
+				172C21A81C2C2C90000EBEFF /* Frameworks */,
+				172C21A91C2C2C90000EBEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mango;
+			productName = Mango;
+			productReference = 172C21AB1C2C2C90000EBEFF /* Mango.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172C21BE1C2C2C91000EBEFF /* MangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C21D61C2C2C91000EBEFF /* Build configuration list for PBXNativeTarget "MangoTests" */;
+			buildPhases = (
+				172C21BB1C2C2C91000EBEFF /* Sources */,
+				172C21BC1C2C2C91000EBEFF /* Frameworks */,
+				172C21BD1C2C2C91000EBEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172C21C11C2C2C91000EBEFF /* PBXTargetDependency */,
+			);
+			name = MangoTests;
+			productName = MangoTests;
+			productReference = 172C21BF1C2C2C91000EBEFF /* MangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		172C21C91C2C2C91000EBEFF /* MangoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C21D91C2C2C91000EBEFF /* Build configuration list for PBXNativeTarget "MangoUITests" */;
+			buildPhases = (
+				172C21C61C2C2C91000EBEFF /* Sources */,
+				172C21C71C2C2C91000EBEFF /* Frameworks */,
+				172C21C81C2C2C91000EBEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172C21CC1C2C2C91000EBEFF /* PBXTargetDependency */,
+			);
+			name = MangoUITests;
+			productName = MangoUITests;
+			productReference = 172C21CA1C2C2C91000EBEFF /* MangoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172C21A31C2C2C90000EBEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Florian Bauer";
+				TargetAttributes = {
+					172C21AA1C2C2C90000EBEFF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WVXCBD2D4N;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					172C21BE1C2C2C91000EBEFF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 172C21AA1C2C2C90000EBEFF;
+					};
+					172C21C91C2C2C91000EBEFF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 172C21AA1C2C2C90000EBEFF;
+					};
+				};
+			};
+			buildConfigurationList = 172C21A61C2C2C90000EBEFF /* Build configuration list for PBXProject "Mango" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172C21A21C2C2C90000EBEFF;
+			productRefGroup = 172C21AC1C2C2C90000EBEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172C21AA1C2C2C90000EBEFF /* Mango */,
+				172C21BE1C2C2C91000EBEFF /* MangoTests */,
+				172C21C91C2C2C91000EBEFF /* MangoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172C21A91C2C2C90000EBEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C21B61C2C2C90000EBEFF /* Assets.xcassets in Resources */,
+				172C21B91C2C2C91000EBEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C21BD1C2C2C91000EBEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C21C81C2C2C91000EBEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172C21A71C2C2C90000EBEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C21B11C2C2C90000EBEFF /* ViewController.swift in Sources */,
+				172C21AF1C2C2C90000EBEFF /* AppDelegate.swift in Sources */,
+				172C21B41C2C2C90000EBEFF /* Mango.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C21BB1C2C2C91000EBEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C21C41C2C2C91000EBEFF /* MangoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C21C61C2C2C91000EBEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C21CF1C2C2C91000EBEFF /* MangoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172C21C11C2C2C91000EBEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172C21AA1C2C2C90000EBEFF /* Mango */;
+			targetProxy = 172C21C01C2C2C91000EBEFF /* PBXContainerItemProxy */;
+		};
+		172C21CC1C2C2C91000EBEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172C21AA1C2C2C90000EBEFF /* Mango */;
+			targetProxy = 172C21CB1C2C2C91000EBEFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172C21B71C2C2C91000EBEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172C21B81C2C2C91000EBEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172C21D11C2C2C91000EBEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172C21D21C2C2C91000EBEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		172C21D41C2C2C91000EBEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mango/Mango.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.flbaue.Mango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		172C21D51C2C2C91000EBEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mango/Mango.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.flbaue.Mango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		172C21D71C2C2C91000EBEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.flbaue.MangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mango.app/Contents/MacOS/Mango";
+			};
+			name = Debug;
+		};
+		172C21D81C2C2C91000EBEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.flbaue.MangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mango.app/Contents/MacOS/Mango";
+			};
+			name = Release;
+		};
+		172C21DA1C2C2C91000EBEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.flbaue.MangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mango;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		172C21DB1C2C2C91000EBEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.flbaue.MangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mango;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172C21A61C2C2C90000EBEFF /* Build configuration list for PBXProject "Mango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C21D11C2C2C91000EBEFF /* Debug */,
+				172C21D21C2C2C91000EBEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C21D31C2C2C91000EBEFF /* Build configuration list for PBXNativeTarget "Mango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C21D41C2C2C91000EBEFF /* Debug */,
+				172C21D51C2C2C91000EBEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C21D61C2C2C91000EBEFF /* Build configuration list for PBXNativeTarget "MangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C21D71C2C2C91000EBEFF /* Debug */,
+				172C21D81C2C2C91000EBEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C21D91C2C2C91000EBEFF /* Build configuration list for PBXNativeTarget "MangoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C21DA1C2C2C91000EBEFF /* Debug */,
+				172C21DB1C2C2C91000EBEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		172C21B21C2C2C90000EBEFF /* Mango.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				172C21B31C2C2C90000EBEFF /* Mango.xcdatamodel */,
+			);
+			currentVersion = 172C21B31C2C2C90000EBEFF /* Mango.xcdatamodel */;
+			path = Mango.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 172C21A31C2C2C90000EBEFF /* Project object */;
+}
